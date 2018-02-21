@@ -1,0 +1,23 @@
+{
+  "name": "test-popup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./ -p8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judith435/test-popup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/judith435/test-popup/issues"
+  },
+  "homepage": "https://github.com/judith435/test-popup#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
