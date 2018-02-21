@@ -22,6 +22,8 @@ userPopup.controller('popupController', function($scope, $modal, $log) {
 			});
         };
 });
+
+
 userPopup.controller('DialogInstCtrl', function($scope, $modalInstance, selectedUsr, $log) {
 $scope.usr = selectedUsr;
 		  $scope.submitUser = function () {
